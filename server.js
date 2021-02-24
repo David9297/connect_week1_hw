@@ -7,7 +7,7 @@ app.use(express.static("public"));
 
 //The default route of / and what to do!
 app.get("/", function(req, res) {
-    res.send("<html><body><h1>Hello Hello Thank you for connecting!</h1></body></html>");
+    res.send();
 });
 
 app.listen(80);
